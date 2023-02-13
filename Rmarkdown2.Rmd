@@ -1,0 +1,26 @@
+---
+title: "Rmarkdown2"
+author: "Raissa Hohenester"
+date: "2023-02-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!-- comment me with ctrl-shift-c -->
+
+## Basic Syntax and some hotkeys
+```{r}
+my_string <- "comment me with ctrl-shift-c"
+print(my_string)
+
+7 # execute this line with ctrl-enter
+#hotkey for assignments is "alt" + "-"
+
+x <- 1
+2 -> y
+z = x + y
+# Run the whole chunk with ctrl-shift-enter
+```
